@@ -38,4 +38,4 @@ shoe_1 = Shoe.new("Micheal Kors", "White", "Stiletto Heelos", "98")
 shoe_2 = Shoe.new("Nike", "Grey", "Sneakers", "80")
 shoe_3 = Shoe.new("Puma", "Pink Originals", "Casual Flays", "145")
 
-print shoe_1.brand
+print Shoe_1.brand
