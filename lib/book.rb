@@ -42,4 +42,4 @@ book_1 = book.new("The Last Olympian", "Rick Riordan", "392", "Fantasy")
 book_2 = book.new("Manners", "Moe Williams", "8", "Children's")
 book_3 = book.new("Pretties", "Scott Westerfield", "392", "Dystopian")
 
-
+print book_1
