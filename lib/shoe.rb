@@ -13,23 +13,23 @@
   end 
   
   def color
-  @author
+  @color
   end 
   
-  def page_count=(num)
-    @page_count = num
+  def type=(type)
+    @type = type
   end 
   
-  def page_count 
-  @page_count
+  def type 
+  @type
   end 
   
-  def genre=(genre)
-    @genre = genre
+  def type=(type)
+    @type = type
   end 
   
-  def genre 
-  @genre
+  def type
+  @type
   end 
 
 end 
