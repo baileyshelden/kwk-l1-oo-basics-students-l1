@@ -1,4 +1,4 @@
-class book (title, author, page_count, genre)
+class Book(title, author, page_count, genre)
   
   def initialize(title)
     @title = title 
