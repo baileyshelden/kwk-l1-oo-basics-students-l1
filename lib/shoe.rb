@@ -1,4 +1,4 @@
-# Make your shoe class here!class Book
+class Shoe
   
   def initialize(brand, color, type, price)
     @brand = brand
@@ -34,8 +34,8 @@
 
 end 
 
-shoe_1 = Shoe.new("The Last Olympian", "Rick Riordan", "392", "Fantasy")
-shoe_2 = Shoe.new("Manners", "Moe Williams", "8", "Children's")
-shoe_3 = Shoe.new("Pretties", "Scott Westerfield", "392", "Dystopian")
+shoe_1 = Shoe.new("Micheal Kors", "White", "Stiletto Heelos", "98")
+shoe_2 = Shoe.new("Nike", "Grey", "Sneakers", "80")
+shoe_3 = Shoe.new("Puma", "Pink Originals", "Casual Flays", "145")
 
-print book_1.title
+print shoe_1.title
