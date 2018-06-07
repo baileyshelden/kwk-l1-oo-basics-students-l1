@@ -24,7 +24,7 @@
   @type
   end 
   
-  def type=(type)
+  def price=(price)
     @type = type
   end 
   
