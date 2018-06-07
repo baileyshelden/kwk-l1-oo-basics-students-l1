@@ -8,11 +8,11 @@
   @tbrand 
   end 
   
-  def color=(author)
-    @author = author 
+  def color=(color)
+    @color = color
   end 
   
-  def author
+  def color
   @author
   end 
   
