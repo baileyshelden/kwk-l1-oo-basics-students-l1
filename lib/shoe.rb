@@ -25,17 +25,17 @@
   end 
   
   def price=(price)
-    @type = type
+    @price = price
   end 
   
-  def type
-  @type
+  def price
+  @price
   end 
 
 end 
 
-book_1 = Book.new("The Last Olympian", "Rick Riordan", "392", "Fantasy")
-book_2 = Book.new("Manners", "Moe Williams", "8", "Children's")
-book_3 = Book.new("Pretties", "Scott Westerfield", "392", "Dystopian")
+shoe_1 = Shoe.new("The Last Olympian", "Rick Riordan", "392", "Fantasy")
+shoe_2 = Shoe.new("Manners", "Moe Williams", "8", "Children's")
+shoe_3 = Shoe.new("Pretties", "Scott Westerfield", "392", "Dystopian")
 
 print book_1.title
